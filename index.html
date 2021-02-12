@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    </head>
+
+
+    <body>
+        <div class="container">
+            <header 
+                class="header">
+                <h1 id="title">Are you ready to visit 2068?</h1>
+                <p id="description">
+               Thank you for taking the time to register for our aim
+                </p>
+            </header>
+        </div>
+        
+        <form id="survey-form">
+            <div class="form-group">
+             <label id="name-label">Name</label>
+             <input type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                    />
+            </div>
+            <div class=form-group>
+            <label id="email-label">Email</label>
+            <input type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                    required
+                    />
+                </div>
+            <div class="form-group">
+                <label id="number-label">Age (optional)</label>
+                <input type="number"
+                        name="age"
+                        id="number"
+                        min = "10"
+                        max = "99"
+                        placeholder="Age"
+                        />
+            </div>
+            <div class="form-group">
+               <p>What are your views on the future?</p>
+                <select 
+                        id="dropdown"
+                        name="adjective"
+                        required>
+                        <option disable selected value>
+                            Choose one of these adjectives
+                        </option>
+                        <option value="Optimistic">Optimistic</option>
+                        <option value="Grim">Grim</option>
+                        <option value="Fantastic">Fantastic</option>
+                        <option value="None">There is no future bruv</option>  
+                </select>     
+            </div>
+
+            <div class="form-group">
+                <p>What items would you like to take into the future</p>
+                <label>
+                    <input
+                    name="user-medium-selected"
+                    value="Money"
+                            type="checkbox"
+                            class="input-checkbox"
+                            />
+                            Money
+                        </label>
+                <label>
+                    <input 
+                    name="user-medium-selected"
+                    value="Puppies"
+                        type="checkbox"
+                        class="input-checkbox"/>
+                    Puppies
+                </label>
+                <label>
+                    <input 
+                    name="user-medium-selected"
+                    value="AutomaticWeapons"
+                        type="checkbox"
+                        class="input-checkbox"/>
+                    Automatic Weapons
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>In what medium would you escape the future</p>
+                <label>
+                    <input
+                    name="user-medium-selected"
+                    value="Donkey"
+                            type="radio"
+                            class="input-radio"
+                            />
+                            Donkey
+                        </label>
+                <label>
+                    <input 
+                    name="user-medium-selected"
+                    value="Ferrari Testarossa"
+                        type="radio"
+                        class="input-radio"/>
+                    Ferrari Testarossa
+                </label>
+                <label>
+                    <input 
+                    name="user-medium-selected"
+                    value="Vodka"
+                        type="radio"
+                        class="input-radio"/>
+                    Vodka
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Tell me why you wont see me in the future</p>
+                <textarea
+                    id="reasons"
+                    class="input-textarea"
+                    name="Reasons"
+                    placeholder="Enter your reasons here..."
+                    ></textarea>
+            </div>
+            <div class="form-group">
+                <button
+                    type="submit"
+                    id="submit"
+                    class="submit-button"> 
+                    Submit
+                </button>
+                </div> 
+            
+        </form>
+        
+
+    </body>
+
+</html>

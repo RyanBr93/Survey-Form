@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnV0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+.header{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    }
+
+
+
+
+form {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    align-items: center;
+    z-index: 1;
+    border-radius: 0.25rem;
+    margin: 0 auto; 
+    width:45%;
+      }
+
+
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    opacity: 1;
+    width: 50%;
+    height: 50%
+    
+      }
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+      }
+
+.description{
+    font-style: italic;
+}
+
+
+.container {
+    width: 100%;
+    
+  }
+  
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+    min-height: 120px;
+    max-width: 700px;
+    margin: 0 auto; 
+    width:95%;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(61, 61, 61);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  }
